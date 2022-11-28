@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #33a746cc;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-right: 70px;
+    padding: 20px;
+    border-radius: 50%;
+    
+}
+.logo img{
+    
+    width: 95px;
+    height: 95px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #888787c2;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background: url(imagenes/residu.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    top: 50px;
+    font-size: 60px;
+    font-weight: 600;
+    font:Parisiene;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #33a746cc;
+    border-radius: 8px;
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    background: #33a746cc;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+   
+   height: 400px;
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.box-container {
+    height: 2700px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #33a746cc; 
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, 0.5);
+    margin: 20px;  
+    padding: 1rem; 
+    position: relative;
+    top: -47px;
+  
+}
+.box-container .box h3 {
+ 
+    text-align: center;
+    border-radius: 10%;
+    color: rgb(10, 10, 10);
+    background: #94f16f00;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+.box-container .box p {
+ 
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+
+}
+
+
+.box-container .box h3 {
+    position: relative;
+    font-size: 20px;
+    color: #f7f1f1;
+
+}
+.box-container .box img {
+    position: relative;
+    top:-5px;
+    width: 65px;
+    height: 65px;
+
+}
+
+.box-container .box p {
+    position: relative;
+    top:-5px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    height: 400px;
+    padding: 30px;
+    background: #ffffff
+}
+.about h2{
+   color: #000;
+   position: relative;
+   left: 110px;
+   top:50px;
+}
+.about img{
+    position: relative;
+    right: 500px;
+    top:-150px;
+    height: 500px;
+    width: 500px;
+    border-radius: 10%;
+}
+
+.about li{
+    text-overflow: ellipsis;
+    position: relative;
+    left: 100px;
+    top:70px;
+}
+.price {
+    background: url(img/costos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    overflow-x:hidden ;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background: #111;
+  }
+  footer .content{
+    max-width: 1350px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  footer .content p,a{
+    color: #fff;
+  }
+  footer .content .box{
+    width: 33%;
+    transition: all 0.4s ease;
+  }
+  footer .content .topic{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 16px;
+  
+  }
+
+  footer .content p{
+    text-align: justify;
+  }
+  footer .content .lower .topic{
+    margin: 24px 0 5px 0;
+  }
+  footer .content .lower i{
+    padding-right: 16px;
+  }
+  footer .content .middle{
+    padding-left: 80px;
+  }
+  footer .content .middle a{
+    line-height: 32px;
+  }
+  footer .content .right input[type="text"]{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    color: #d9d9d9;
+    background: #000;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 2px solid #222222;
+  }
+  footer .content .right input[type="submit"]{
+    height: 42px;
+    width: 100%;
+    font-size: 18px;
+    color: #d9d9d9;
+    background: #33a746cc;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 12px;
+    border: 2px solid #33a746cc;
+    transition: all 0.3s ease-in-out;
+  }
+  .content .right input[type="submit"]:hover{
+    background: none;
+    color:  #33a746cc;
+  }
+  footer .content .media-icons img{
+    font-size: 16px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 5px;
+    border: 2px solid #222222;
+    margin: 30px 5px 0 0;
+    transition: all 0.3s ease;
+  }
+  .ti{
+    position: relative;
+    top:22px;
+    color: #d9d9d9;
+  }
+  .content .media-icons a:hover{
+    border-color: #33a746cc;
+  }
+  footer .bottom{
+    width: 100%;
+    text-align: center;
+    color: #d9d9d9;
+    padding: 0 40px 5px 0;
+  }
+  footer .bottom a{
+    color: #33a746cc;
+  }
+  footer a{
+    transition: all 0.3s ease;
+  }
+  footer a:hover{
+    color: #33a746cc;
+  }
+  @media (max-width:1100px) {
+    footer .content .middle{
+      padding-left: 50px;
+    }
+  }
+  @media (max-width:950px){
+    footer .content .box{
+      width: 50%;
+    }
+    .content .right{
+      margin-top: 40px;
+    }
+  }
+  @media (max-width:560px){
+    footer{
+      position: relative;
+    }
+    footer .content .box{
+      width: 100%;
+      margin-top: 30px;
+    }
+    footer .content .middle{
+      padding-left: 0;
+    }
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 290vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+    
+}
+  }
